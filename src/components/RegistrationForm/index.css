@@ -1,0 +1,79 @@
+/* Write your CSS code here */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.app-container {
+  width: 40%;
+  padding: 10px;
+}
+
+.registration-heading {
+  color: #ea580c;
+  font-family: roboto;
+  text-align: center;
+}
+
+.inputs-container {
+  margin-top: 30px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.each-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  width: 50%;
+  border-radius: 16px;
+}
+.label-style {
+  color: #475569;
+  font-weight: 500;
+}
+
+.input-box {
+  color: hsl(210, 16%, 82%);
+  padding: 5px;
+  font-size: 13px;
+}
+.submit-btn {
+  background-color: #ea580c;
+  color: #ffffff;
+  border-radius: 6px;
+  border-width: 0px;
+  padding: 10px;
+}
+
+.submit-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.error-input {
+  border-color: #ff0b37;
+  border-width: 2px;
+  border-style: solid;
+  background-color: #ff0b37;
+  background-color: #fef2f4;
+}
+
+.error-message {
+  color: #ff0b37;
+  font-size: 12px;
+}
